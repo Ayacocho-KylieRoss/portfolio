@@ -10,12 +10,14 @@ export class ComputerSocietyComponent {
     const target = event.target as HTMLImageElement;
     const modal = document.getElementById("imageModal") as HTMLElement;
     const modalImg = document.getElementById("fullImage") as HTMLImageElement;
-    
+
     if (target && modal && modalImg) {
         modal.style.display = "flex";
         modalImg.src = target.src;
+        modalImg.style.maxWidth = "90vw";
+        modalImg.style.maxHeight = "90vh";
     }
-  }
+}
 
   closeModal(event: Event) {
     const modal = document.getElementById("imageModal") as HTMLElement;
