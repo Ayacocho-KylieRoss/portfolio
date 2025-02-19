@@ -1,0 +1,141 @@
+body {
+    background-color: #F6F0E4;
+    margin: 0;
+}
+
+.web-designs-page {
+    display: block;
+    align-items: center;
+    padding: 23px;
+    z-index: 0;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto 0;
+    max-width: 64%;
+    background-color: #E5017F;
+}
+
+.header h2 {
+    padding: 8px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 2px #F6F0E4;
+}
+
+.web-designs-container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 23px auto;
+    max-width: 64%;
+}
+
+.containers {
+    display: flex;
+    margin: 0 0 32px 0;
+    height: 200px;
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+}
+
+.containers:hover  {
+    transform: scale(1.01);
+    box-shadow: 4px 8px 8px rgba(11, 10, 10, 0.1);
+}
+
+.containers:hover img  {
+    transform: scale(1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+    transform: scale(1.02);
+}
+
+.left-inner {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 1;
+    background-color: #00A4D7;
+}
+
+.left-details {
+    text-align: left;
+    padding: 16px;
+    max-width: 100%;
+}
+
+.left-inner h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: #F6F0E4;
+}
+
+.left-inner p {
+    text-align: left;
+    font-size: 16px;
+    color: #F6F0E4;
+}
+
+.right-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #1e1e1e;  
+}
+
+.right-inner img {
+    height: 100%;
+    width: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .containers {
+        margin: 0 0 16px 0;
+        height: 100px;
+    }
+    .header {
+        max-width: 95%;
+    }
+
+    .header h2 {
+        font-size: 32px;
+        -webkit-text-stroke: 1px #F6F0E4;
+    }
+
+    .web-designs-container {
+        max-width: 95%;
+    }
+
+    .left-details {
+        padding: 8px;
+        width: 116px;
+    }
+
+    .left-inner h2 {
+        margin: 0;
+        font-size: 12px;
+    }
+    
+    .left-inner p {
+        font-size: 8px;
+        color: #F6F0E4;
+    }
+
+    .right-inner {
+        justify-content: flex-end;
+    }
+
+    .right-inner img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}

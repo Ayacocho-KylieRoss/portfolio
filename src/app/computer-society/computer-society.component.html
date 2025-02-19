@@ -1,0 +1,87 @@
+<router-outlet></router-outlet>
+<div>
+    <app-navbar></app-navbar>
+
+    <div class="header">
+        <h2>PUP Taguig Computer Society</h2>
+    </div>
+
+    <div class="descriptions-container">
+        <div class="descriptions">
+            <h3>Description:</h3>
+            <p>
+                I handled the design and creation of publication materials for organizational 
+                events and announcements, ensuring effective communication and 
+                brand consistency. I also delegated tasks and provided guidance 
+                to apprentices, fostering their growth and maintaining efficient 
+                team operations. Additionally, I led and coordinated various 
+                arts-related events, overseeing logistics, programming, 
+                and execution to deliver successful and engaging experiences for the organization.
+            </p>
+            <h3>Posistion:</h3>
+            <p>Director For Arts</p>
+            <h3>Tools used:</h3>
+            <p>Adobe Photoshop and Canva</p>
+        </div>
+        
+    </div>
+
+    <div class="links">
+        <i class="fa-brands fa-square-facebook"></i>
+        <a href="https://www.facebook.com/PUPTCS" 
+            target="blank">PUP Taguig Computer Society</a>
+    </div>
+
+    <div class="designs-container">
+        <div class="main-posters">
+            <div class="title-card">
+                <h2>Publication Materials</h2>
+            </div>
+
+            <div class="portrait-posters">
+                <img src="../assets/graphic-design/puptcs/1.png" alt="poster1" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/2.png" alt="poster2" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/3.png" alt="poster3" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/4.png" alt="poster4" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/5.png" alt="poster5" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/6.png" alt="poster6" draggable="false" (click)="openModal($event)">
+            </div>
+
+            <div class="landscape-posters">
+                <img src="../assets/graphic-design/puptcs/7.png" alt="poster7" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/8.png" alt="poster8" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/9.png" alt="poster9" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/10.png" alt="poster10" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/11.png" alt="poster11" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/12.png" alt="poster12" draggable="false" (click)="openModal($event)">
+                
+            </div>
+        </div>
+
+        <div class="dp-frames">
+            <div class="title-card">
+                <h2>Display Picture Frames</h2>
+            </div>
+
+            <div class="img-frames">
+                <img src="../assets/graphic-design/puptcs/13.png" alt="poster13" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/14.png" alt="poster14" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/15.png" alt="poster15" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/16.png" alt="poster16" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/17.png" alt="poster17" draggable="false" (click)="openModal($event)">
+                <img src="../assets/graphic-design/puptcs/18.png" alt="poster18" draggable="false" (click)="openModal($event)">
+            </div>
+        </div>
+    </div>
+
+<!-- Image Preview Modal -->
+<div id="imageModal" class="modal" (click)="closeModal($event)" style="display: none;">
+    <span class="close" (click)="closeModal($event)">&times;</span>
+    <div class="modal-content-wrapper">
+        <img class="modal-content" id="fullImage">
+    </div>
+</div>
+
+
+
+</div>

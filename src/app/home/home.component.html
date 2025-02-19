@@ -1,0 +1,107 @@
+<router-outlet></router-outlet>
+<div>
+    <!-- Navigation Bar -->
+    <app-navbar></app-navbar>
+
+    <!----- Main Page Content ----->
+    <!-- Greeting Section -->
+    <div class="hello-greetings">
+        <img src="../assets/img/hello_world.png" alt="greetings">
+    </div>
+    
+    <!-- About Me Section -->
+    <div class="body-container" id="intro-section">
+        <div class="about-me-container">
+            <div class="about-me-columns">
+                <div class="about-left-column">
+                    <h1>ABOUT ME</h1>
+                    <p>
+                        Hello! I'm Kylie Ross Ayacocho, an Information 
+                        Technology student at PUP Taguig. I'm passionate 
+                        about graphic design, illustration, and web design. 
+                        Creating visually stunning and user-friendly digital 
+                        experiences is my jam.
+                    </p>
+                </div>
+                <div class="picture-right-column">
+                    <img src="../assets/img/profile_pic.png" alt="profile_pic">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-container">
+
+        </div>
+        
+        <!-- Links Section -->
+        <div class="links-container">
+            <div class="links-content">
+                <div class="links">
+                    <div class="email-link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email: 
+                            <a href="mailto:kylieross.ayacocho@gmail.com">
+                                kylieross.ayacocho&#64;gmail.com</a>
+                        </p>  
+                    </div>
+                    <div class="linkedin-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p>LinkedIn: 
+                            <a href="https://www.linkedin.com/in/kylierossayacocho/" 
+                                target="blank">Kylie Ross Ayacocho</a>
+                        </p>
+                    </div>
+                    <div class="instagram-link">
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <p>Instagram: 
+                            <a href="https://www.instagram.com/allonstarry/" 
+                                target="blank">
+                                allonstarry</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- My Works Section -->
+        <div class="my-works-section" id="my-works-section"></div>
+    
+        <div class="my-works-header">
+            <h2>MY WORKS</h2>
+        </div>
+    
+        <div class="my-works-container">
+            <div (click)="goToWebDesigns()" class="web-designs-container">
+                <div class="left-web-designs">
+                    <img src="../assets/img/web-banner.png" alt="web-banner">
+                </div>
+                <div class="right-web-designs">
+                    <h2>WEB DESIGNS</h2>
+                </div>
+            </div>
+    
+            <div (click)="goToGraphicDesigns()" class="graphic-designs-container">
+                <div class="left-graphic-designs">
+                    <h2>GRAPHIC DESIGNS</h2>
+                </div>
+                <div  class="right-graphic-designs" >
+                    <img src="../assets/img/graphic-banner.png" alt="graphic-banner">
+                </div>
+            </div>
+    
+            <!-- <div (click)="goToIllustrations()" class="illustrations-container">
+                <div class="left-illustrations">
+                    <img src="../assets/img/illustration-banner.png" alt="illustration-banner">
+                </div>
+                <div class="right-illustrations">
+                    <h2>ILLUSTRATIONS</h2>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+    <!-- Floating Back to Top Button -->
+    <button class="back-to-top" (click)="scrollToTop()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</div>

@@ -1,0 +1,274 @@
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin: 16px auto 0 auto;
+    max-width: 80%;
+    background-color: #E5017F;
+}
+
+.header h2 {
+    padding: 8px;
+    margin: 0 auto 0 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #F6F0E4;
+}
+
+.descriptions-container {
+    margin: 0 auto 0 auto;
+    max-width: 80%;
+    background-color: #00A4D7;
+}
+
+.descriptions {
+    padding: 8px;
+    max-width: 80%;
+    background-color: #00A4D7;
+}
+
+.descriptions h3 {
+    margin: 0 auto 4px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #F6F0E4;
+}
+
+
+.descriptions p {
+    margin: 0 auto 8px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #F6F0E4;
+}
+
+
+.links {
+    justify-content: center;
+    margin: 0 auto 23px auto;
+    max-width: 80%;
+    background-color: #E5017F;
+}
+
+.links p, .links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #F6F0E4;
+    margin: 0;
+}
+
+.links a:hover {
+    color: #F6E300;
+}
+
+.fa-square-facebook {
+    padding: 16px;
+    color: #F6F0E4;
+    font-size: 16px;
+}
+
+.designs-container {
+    display: inline-block;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #231D1D;
+    z-index: 0;
+}
+
+.main-posters {
+    align-items: center;
+}
+
+.title-card {
+    justify-content: center;
+    margin: 0 auto 40px auto;
+    max-width: 80%;
+    background-color: #E5017F;
+}
+
+.title-card h2 {
+    margin: 0 auto 4px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #F6F0E4;
+}
+
+.main-posters {
+    margin-bottom: 40px;
+}
+
+.portrait-posters, 
+.landscape-posters {
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.portrait-posters img,
+.landscape-posters img {
+    max-width: 15%;
+    height: auto;
+}
+
+.img-frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.img-frames img {
+    max-width: 15%;
+    height: auto;
+}
+
+/* Ensure the modal is hidden by default */
+.modal {
+    display: none;  /* This keeps it hidden initially */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: none;  
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    font-weight: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #E5017F;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        margin: 16px auto 0 auto;
+        max-width: 95%;
+        background-color: #E5017F;
+    }
+    
+    .header h2 {
+        padding: 8px;
+        margin: 0 auto 0 16px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #F6F0E4;
+    }
+    
+    .descriptions-container {
+        max-width: 95%;
+        background-color: #00A4D7;
+    }
+    
+    .descriptions {
+        padding: 8px;
+        max-width: 90%;
+        background-color: #00A4D7;
+    }
+    
+    .descriptions h3 {
+        margin: 0 auto 4px 16px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        color: #F6F0E4;
+    }
+    
+    .descriptions p {
+        margin: 0 auto 8px 16px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        color: #F6F0E4;
+    }
+
+    .links {
+        max-width: 95%;
+    }
+    
+    .links p, .links a {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        color: #F6F0E4;
+        margin: 0;
+    }
+
+    .fa-square-facebook {
+        padding: 8px;
+        color: #F6F0E4;
+        font-size: 16px;
+    }
+
+    .designs-container {
+        max-width: 100%;
+    }
+
+    .title-card {
+        margin: 0 auto 24px auto;
+        max-width: 95%;
+    }
+
+    .title-card h2 {
+        font-size: 18px;
+    }
+    
+    .portrait-posters, 
+    .landscape-posters {
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .portrait-posters img,
+    .landscape-posters img {
+        max-width: 45%;
+    }
+    
+    .img-frames {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .img-frames img {
+        max-width: 45%;
+    }
+}
