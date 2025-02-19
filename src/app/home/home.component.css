@@ -57,8 +57,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 64px;
-    color: transparent;
-    -webkit-text-stroke: 2px #F6F0E4;
+    color: #F6F0E4;
 }
 
 .about-left-column p {
@@ -118,8 +117,7 @@ body {
 }
 
 .fa-envelope, 
-.fa-linkedin, 
-.fa-square-instagram {
+.fa-linkedin {
     color: #F6F0E4;
     font-size: 16px;
 }
@@ -264,14 +262,15 @@ body {
     background-color: #008cd7;
 }
 
+/* mobile view */
 @media screen and (min-width: 320px) and (max-width: 767px) {
-
     .hello-greetings {
         height: 96vh;
     }
 
     .about-me-container {
         max-width: 100%;
+        margin: 4vh auto 0 auto;
     }
 
     .about-left-column {
@@ -284,12 +283,11 @@ body {
     .about-left-column h1 {
         text-align: center;
         font-size: 16px;
-        -webkit-text-stroke: 1px #F6F0E4;
     }
     
     .about-left-column p {
         margin: 8px 0 8px 8px;
-        font-size: 8px;
+        font-size: 9px;
     }
     
     .picture-right-column img {
@@ -312,13 +310,12 @@ body {
     }
     
     .links p, .links a {
-        font-size: 8px;
+        font-size: 9px;
         margin: 0;
     }
 
     .fa-envelope, 
-    .fa-linkedin, 
-    .fa-square-instagram {
+    .fa-linkedin {
         font-size: 12px;
     }
 
@@ -329,6 +326,92 @@ body {
 
     .my-works-container {
         max-width: 100%;
+    }
+    
+    .my-works-header h2 {
+        font-size: 23px;
+        -webkit-text-stroke: 1px #F6F0E4;
+    }
+
+    .my-works-container h2 {
+        padding: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #F6F0E4;
+    }
+
+    .web-designs-container,
+    .illustrations-container,
+    .graphic-designs-container  {
+        margin: 0 0 24px 0;
+        height: 100px;
+    }
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hello-greetings {
+        height: 96vh;
+    }
+
+    .about-me-container {
+        max-width: 60%;
+        margin: 4vh auto 0 auto;
+    }
+
+    .about-left-column {
+        padding: 8px;
+        margin: 0;
+        justify-content: center;
+        flex: 1;
+    }
+    
+    .about-left-column h1 {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .about-left-column p {
+        margin: 8px 0 8px 8px;
+        font-size: 9px;
+    }
+    
+    .picture-right-column img {
+        margin: 8px;
+        max-width: 100px;
+        max-height: 100px;  
+    }
+
+    .links-container {
+        display: block;
+        justify-content: center;
+        max-width: 60%;
+    }
+
+    .links {
+        display: block;
+        margin: 0 0 0 8px;
+        padding: 4px;
+        gap: 23px;
+    }
+    
+    .links p, .links a {
+        font-size: 9px;
+        margin: 0;
+    }
+
+    .fa-envelope, 
+    .fa-linkedin {
+        font-size: 12px;
+    }
+
+    .my-works-header {
+        max-width: 60%;
+        margin: 40px auto 0;
+    }
+
+    .my-works-container {
+        max-width: 60%;
     }
     
     .my-works-header h2 {
