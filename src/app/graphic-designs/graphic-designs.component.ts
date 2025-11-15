@@ -11,8 +11,12 @@ export class GraphicDesignsComponent {
     console.log('GraphicDesignsComponent loaded');
   }
 
+    goToLawAdvisor(): void {
+    this.router.navigate(['/lawadvisor-design']);
+  }
+
   goToComputerSociety(): void {
-    this.router.navigate(['/cs-mockup']);
+    this.router.navigate(['/cs-design']);
   }
   
   goToOther(): void {

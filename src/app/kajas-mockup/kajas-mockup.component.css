@@ -7,42 +7,42 @@
 .header {
     margin: 16px auto 0 auto;
     max-width: 80%;
-    background-color: #E5017F;
+    background-color: #1e1e1e;
 }
 
 .header h2 {
     padding: 8px;
     margin: 0 auto 0 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 32px;
-    color: #F6F0E4;
+    color: #e8e8e8;
 }
 
 .descriptions-container {
     margin: 0 auto 0 auto;
     max-width: 80%;
-    background-color: #00A4D7;
+    background-color: #edf1f6;
+    background-image: url("https://www.transparenttextures.com/patterns/church.png");;
 }
 
 .descriptions {
     padding: 8px;
     max-width: 80%;
-    background-color: #00A4D7;
 }
 
 .descriptions h3 {
     margin: 0 auto 4px 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 18px;
-    color: #F6F0E4;
+    color: #1e1e1e;
 }
 
 
 .descriptions p {
     margin: 0 auto 8px 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
-    color: #F6F0E4;
+    color: #1e1e1e;
 }
 
 
@@ -50,23 +50,23 @@
     justify-content: center;
     margin: 0 auto 23px auto;
     max-width: 80%;
-    background-color: #E5017F;
+    background-color: #1e1e1e;
 }
 
 .links p, .links a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     font-size: 16px;
-    color: #F6F0E4;
+    color: #e8e8e8;
     margin: 0;
 }
 
 .links a:hover {
-    color: #F6E300;
+    color: #edf1f6;
 }
 
 .fa-github {
     padding: 16px;
-    color: #F6F0E4;
+    color: #e8e8e8;
     font-size: 16px;
 }
 
@@ -92,50 +92,44 @@ img {
     .header {
         margin: 16px auto 0 auto;
         max-width: 95%;
-        background-color: #E5017F;
     }
     
     .header h2 {
         padding: 8px;
         margin: 0 auto 0 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 16px;
-        color: #F6F0E4;
     }
     
     .descriptions-container {
         max-width: 95%;
-        background-color: #00A4D7;
     }
     
     .descriptions {
         padding: 8px;
         max-width: 90%;
-        background-color: #00A4D7;
     }
     
     .descriptions h3 {
         margin: 0 auto 4px 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 12px;
-        color: #F6F0E4;
     }
     
     .descriptions p {
         margin: 0 auto 8px 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 11px;
-        color: #F6F0E4;
     }
 
-    .links {
+        .links {
         max-width: 95%;
     }
     
     .links p, .links a {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Oxygen', sans-serif;
         font-size: 11px;
-        color: #F6F0E4;
+        color: #e8e8e8;
         margin: 0;
     }
     
@@ -145,7 +139,7 @@ img {
     
     .fa-github {
         padding: 8px;
-        color: #F6F0E4;
+        color: #e8e8e8;
         font-size: 16px;
     }
 

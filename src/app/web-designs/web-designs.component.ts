@@ -11,6 +11,10 @@ export class WebDesignsComponent {
     console.log('WebDesignsComponent loaded');
   }
 
+    goToLawSimplified(): void {
+    this.router.navigate(['/lawsimplified-mockup']);
+  }
+
   goToBioSync(): void {
     this.router.navigate(['/biosync-mockup']);
   }

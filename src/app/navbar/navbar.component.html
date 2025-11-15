@@ -9,9 +9,9 @@
         <button (click)="scrollToTop()">
             <a>Home</a>
         </button>
-        <button (click)="scrollToIntro()">
+        <!-- <button (click)="scrollToIntro()">
             <a>About Me</a>
-        </button>
+        </button> -->
         <button (click)="scrollToMyWorks()">
             <a>My Works</a>
         </button>
@@ -22,7 +22,7 @@
 <mat-sidenav-container>
     <mat-sidenav #sidenav mode="over" class="mobile-sidenav">
         <button mat-button (click)="scrollToTop(); sidenav.close()">Home</button>
-        <button mat-button (click)="scrollToIntro(); sidenav.close()">About Me</button>
+        <!-- <button mat-button (click)="scrollToIntro(); sidenav.close()">About Me</button> -->
         <button mat-button (click)="scrollToMyWorks(); sidenav.close()">My Works</button>
     </mat-sidenav>
 </mat-sidenav-container>

@@ -20,6 +20,11 @@ import { ExtravaganzaMockupComponent } from './extravaganza-mockup/extravaganza-
 import { ComputerSocietyComponent } from './computer-society/computer-society.component';
 import { OtherProjectsComponent } from './other-projects/other-projects.component';
 import { DreamingComponent } from './dreaming/dreaming.component';
+import { LawsimplifiedMockupComponent } from './lawsimplified-mockup/lawsimplified-mockup.component';
+import { LawadvisorComponent } from './lawadvisor/lawadvisor.component';
+import { LegalEyeComponent } from './legal-eye/legal-eye.component';
+import { A2JIllutrationsComponent } from './a2-j-illutrations/a2-j-illutrations.component';
+import { A2JSocialsComponent } from './a2-j-socials/a2-j-socials.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +40,12 @@ import { DreamingComponent } from './dreaming/dreaming.component';
     ExtravaganzaMockupComponent,
     ComputerSocietyComponent,
     OtherProjectsComponent,
-    DreamingComponent
+    DreamingComponent,
+    LawsimplifiedMockupComponent,
+    LawadvisorComponent,
+    LegalEyeComponent,
+    A2JIllutrationsComponent,
+    A2JSocialsComponent,
   ],
   imports: [
     BrowserModule,

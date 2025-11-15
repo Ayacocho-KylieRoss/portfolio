@@ -14,12 +14,12 @@ export class HomeComponent {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  scrollToIntro(): void {
-    const element = document.getElementById('intro-section');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
+  // scrollToIntro(): void {
+  //   const element = document.getElementById('intro-section');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // }
 
   scrollToMyWorks(): void {
     const element = document.getElementById('my-works-section');
